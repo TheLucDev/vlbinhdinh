@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/langding-page.css">
+    <title>TT DỊCH VỤ VIỆC LÀM - BÌNH ĐỊNH</title>
+</head>
+<body>
+    <div class="w-100 bg-primary text-white">
+        <div class="container py-2">
+            <div class="d-flex justify-content-between flex-lg-row flex-column">
+                <!-- Contact -->
+                <div class="d-sm-flex d-none gap-4">
+                    <div class="d-flex gap-2 text-nowrap align-items-center">
+                        <img src="./icons/phone.svg" alt="" width="24px">(0256) 3646509
+                    </div>
+                    <div class="d-flex gap-2 text-nowrap align-items-center">
+                        <img src="./icons/mai.svg" alt="" width="24px"> pvl@vieclambinhdinh.gov.vn
+                    </div>
+                </div>
+
+                <!-- Login | Logout | Languages -->
+                <div class="d-flex gap-2 align-items-center">
+                    <!-- Login -->
+                    <div class="dropdown show">
+                        <a class="d-flex gap-2" href="#" role="button" id="dropdowLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./icons/logout.svg" alt="">Đăng nhập
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdowLogin">
+                            <a class="dropdown-item" href="#">Ứng viên tìm việc làm</a>
+                            <a class="dropdown-item" href="#">Ứng viên học nghề</a>
+                            <a class="dropdown-item" href="#">Ứng viên đi XKLĐ</a>
+                            <a class="dropdown-item" href="#">Nhà tuyển dụng lao động</a>
+                            <a class="dropdown-item" href="#">Phiên giao dịch việc làm</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Quản trị website</a>
+                            <a class="dropdown-item" href="#">Thị trường lao động</a>
+                        </div>
+                    </div>
+                    <span class="border-end h-75"></span>
+
+                    <!-- Register -->
+                    <div class="dropdown show">
+                        <a class="d-flex gap-2" href="#" role="button" id="dropdownRegister" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./icons/person.svg" alt="">Đăng ký
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownRegister">
+                            <a class="dropdown-item" href="#">Tìm việc làm...</a>
+                            <a class="dropdown-item" href="#">Học nghề, dự tuyển ĐH,CĐ...</a>
+                            <a class="dropdown-item" href="#">Đi xuất khẩu lao động</a>
+                            <a class="dropdown-item" href="#">Tuyển dụng lao động</a>
+                            <a class="dropdown-item" href="#">Sàn giao dịch việc làm</a>
+                        </div>
+                    </div>
+                    <span class="border-end h-75"></span>
+                    <a href="#">
+                        <img src="./images/languages/Flag_of_Vietnam.svg.webp" alt="" height="24px">
+                    </a>
+                    <a href="#">
+                        <img src="./images/languages/united-kingdom.png" alt="" height="24px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-white py-3 mb-4">
+        <!-- Nav -->
+        <div class="d-flex flex-lg-row flex-column gap-3 justify-content-md-between justify-content-center pb-3">
+            <div class="d-flex gap-2">
+                <a href="#" class="d-flex main-logo flex-column justify-content-center align-items-center gap-2 mx-lg-0 mx-auto">
+                    <img src="images/logo_binh_dinh1.png"  alt="" width="70px">
+                </a>
+                <div class="text-center d-flex flex-column justify-content-center   ">
+                    <h4 class="text-sm-start text-success fw-bold">Trung tâm Dịch vụ việc làm</h4>
+                    <h4 class="text-lg text-danger fw-bold">Bình Định</h4>
+                </div>
+            </div>
+
+            <!-- Menu -->
+             <div class="row custom-menu-bar row-cols-4 row-cols-lg-auto flex-lg-nowrap gy-3">
+                <div class="col">
+                    <a href="#" class="d-flex flex-column justify-content-center align-items-center fw-semibold text-nowrap h-100">
+                        <img src="./icons/menu/cropped-icon-home-cam.png" alt="" height="40px">
+                        <span class="h-100 d-flex justify-content-center align-items-center">Trang Chủ</span>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" class="d-flex flex-column justify-content-center align-items-center text-nowrap h-100">
+                        <img src="./icons/menu/business-icon.png" alt="" height="40px">
+                        <span class="h-100 d-flex justify-content-center align-items-center">Giới Thiệu</span>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <div class="dropdown h-100">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center text-nowrap h-100" id="dropdonwMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./icons/menu/iconfinder-653-company-employee-group-people-team-4017596_113084.webp" alt="" height="40px">
+                            <span class="h-100 d-flex justify-content-center align-items-center">Người Tìm Việc</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdonwMenu1">
+                            <a class="dropdown-item" href="#">Menu 1</a>
+                            <a class="dropdown-item" href="#">Menu 2</a>
+                            <a class="dropdown-item" href="#">Menu 3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dropdown h-100">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center text-nowrap h-100" id="dropdonwMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./icons/menu/recruitment-icon-9-c908ca8f6d5f454aa65e08ef97b886ac.png" alt="" height="40px">
+                            <span class="h-100 d-flex justify-content-center align-items-center">Tuyển Dụng</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdonwMenu2">
+                            <a class="dropdown-item" href="#">Menu 1</a>
+                            <a class="dropdown-item" href="#">Menu 2</a>
+                            <a class="dropdown-item" href="#">Menu 3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dropdown h-100">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center text-nowrap h-100" id="dropdonwMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./icons/menu/9746243.png" alt="" height="40px">
+                            <span class="h-100 d-flex justify-content-center align-items-center">Văn Bản</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdonwMenu3">
+                            <a class="dropdown-item" href="#">Menu 1</a>
+                            <a class="dropdown-item" href="#">Menu 2</a>
+                            <a class="dropdown-item" href="#">Menu 3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dropdown h-100">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center text-center h-100" style="min-width: 100px;" id="dropdonwMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./icons/menu/vban.png" alt="" height="40px">
+                            <span class="h-100 d-flex justify-content-center align-items-center">Thủ Tục Hành Chính</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdonwMenu4">
+                            <a class="dropdown-item" href="#">Menu 1</a>
+                            <a class="dropdown-item" href="#">Menu 2</a>
+                            <a class="dropdown-item" href="#">Menu 3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dropdown h-100">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center text-nowrap h-100" id="dropdonwMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./icons/menu/1795.png_860.png" alt="" height="40px">
+                            <span class="h-100 d-flex justify-content-center align-items-center">Tin Tức</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdonwMenu5">
+                            <a class="dropdown-item" href="#">Menu 1</a>
+                            <a class="dropdown-item" href="#">Menu 2</a>
+                            <a class="dropdown-item" href="#">Menu 3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="dropdown h-100">
+                        <a href="#" class="d-flex flex-column justify-content-center align-items-center text-nowrap h-100" id="dropdonwMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./icons/menu/1458533.png" alt="" height="40px">
+                            <span class="h-100 d-flex justify-content-center align-items-center"> Sàn Online</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdonwMenu6">
+                            <a class="dropdown-item" href="#">Menu 1</a>
+                            <a class="dropdown-item" href="#">Menu 2</a>
+                            <a class="dropdown-item" href="#">Menu 3</a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <!-- Posts -->
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="border border-1 p-2">
+                    <div class="row gy-3">
+                        <div class="col-md-7 col-12">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-column">
+                                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval="2000">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img src="./images/tuyen dung/banner-tuyen-dung-2.jpg" class="w-100 object-fit-cover" alt="" style="max-height: 210px;">
+                                            <h4 class="text-danger clamped-text-1 mt-2">TRUNG TÂM DỊCH VỤ VIỆC LÀM BÌNH ĐỊNH</h4>
+                                            <p class="clamped-text-2">Bình Định là tỉnh ven biển miền Trung của Việt Nam. Thủ phủ của tỉnh là thành phố Quy Nhơn.</p>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img src="./images/tuyen dung/banner-tuyen-dung-1.jpg" class="w-100 object-fit-cover" alt="" style="max-height: 210px;">
+                                            <h4 class="text-danger clamped-text-1 mt-2">TRUNG TÂM DỊCH VỤ VIỆC LÀM BÌNH ĐỊNH</h4>
+                                            <p class="clamped-text-2">Bình Định là tỉnh ven biển miền Trung của Việt Nam. Thủ phủ của tỉnh là thành phố Quy Nhơn.</p>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img src="./images/tuyen dung/banner-tuyen-dung-2-1200x900.jpg" class="w-100 object-fit-cover" alt="" style="max-height: 210px;">
+                                            <h4 class="text-danger clamped-text-1 mt-2">TRUNG TÂM DỊCH VỤ VIỆC LÀM BÌNH ĐỊNH</h4>
+                                            <p class="clamped-text-2">Bình Định là tỉnh ven biển miền Trung của Việt Nam. Thủ phủ của tỉnh là thành phố Quy Nhơn.</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+
+                                <div class="w-100" style="overflow-y: scroll;">
+                                    <div class="d-flex gap-2" >
+                                        <img src="./images/tuyen dung/1605689787-banner-tuyen-dung-4.jpg" alt="" class="object-fit-cover" height="75px" width="140px">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-1.jpg" alt="" class="object-fit-cover" height="75px" width="140px">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-14.jpg" alt="" class="object-fit-cover" height="75px" width="140px">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-2-1200x900.jpg" alt="" class="object-fit-cover" height="75px" width="140px">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-nhan-vien-trai-nghiem-san-pham-1.jpg" alt="" class="object-fit-cover" height="75px" width="140px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 col-12">
+                            <div class="d-flex flex-column h-100" style="overflow-y: scroll; max-height: 385px;">
+                                <a href="#" class="d-flex gap-2">
+                                    <div class="banner-size-2 d-flex">
+                                        <img src="./images/tuyen dung/1605689787-banner-tuyen-dung-4.jpg" class="object-fit-cover w-100" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span class="text-danger fw-semibold clamped-text-1">Việc tìm người</span>
+                                        <p class="clamped-text-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia odit corrupti velit possimus sunt temporibus voluptas libero assumenda corporis tempore veniam explicabo, expedita neque repudiandae nobis aliquid facilis. Facilis, nisi.</p>
+                                    </div>
+                                </a>
+
+                                <a href="#"  class="d-flex gap-2">
+                                    <div class="banner-size-2 d-flex">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-1.jpg" class="object-fit-cover w-100">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span class="text-danger fw-semibold">Việc tìm người</span>
+                                        <p class="clamped-text-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia odit corrupti velit possimus sunt temporibus voluptas libero assumenda corporis tempore veniam explicabo, expedita neque repudiandae nobis aliquid facilis. Facilis, nisi.</p>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex gap-2">
+                                    <div class="banner-size-2 d-flex">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-14.jpg" class="object-fit-cover w-100" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span class="text-danger fw-semibold">Việc tìm người</span>
+                                        <p class="clamped-text-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia odit corrupti velit possimus sunt temporibus voluptas libero assumenda corporis tempore veniam explicabo, expedita neque repudiandae nobis aliquid facilis. Facilis, nisi.</p>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex gap-2">
+                                    <div class="banner-size-2 d-flex">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-2-1200x900.jpg" class="object-fit-cover w-100" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <span class="text-danger fw-semibold">Việc tìm người</span>
+                                        <p class="clamped-text-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia odit corrupti velit possimus sunt temporibus voluptas libero assumenda corporis tempore veniam explicabo, expedita neque repudiandae nobis aliquid facilis. Facilis, nisi.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="d-flex gap-2">
+                                   <div class="banner-size-2 d-flex">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-2.jpg" class="object-fit-cover w-100" alt="">
+                                   </div>
+                                    <div class="d-flex flex-column">
+                                        <span class="text-danger fw-semibold">Việc tìm người</span>
+                                        <p class="clamped-text-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia odit corrupti velit possimus sunt temporibus voluptas libero assumenda corporis tempore veniam explicabo, expedita neque repudiandae nobis aliquid facilis. Facilis, nisi.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-12 mt-lg-0 mt-2">
+                <img src="./images/tuyen dung/banner-tuyen-dung-nhan-vien-trai-nghiem-san-pham-1.jpg" class="w-100 h-100 object-fit-cover" alt="">
+            </div>
+        </div>
+
+        <!-- Feature -->
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5">
+            <div class="col mt-3">
+                <div class="d-flex align-items-center gap-3 p-3 px-xl-3 px-1 bg-primary w-100 text-yellow rounded h-100 flex-column flex-xl-row align-items-center">
+                    <img src="./icons/menu/school_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="" width="70px">
+                    <h3 class="text-xl-start text-center">KHOÁ HỌC TẬP HUẤN</h3>
+                </div>
+            </div>
+
+            <div class="col mt-3">
+                <div class="d-flex align-items-center gap-xl-1 gap-3 p-3 ps-xl-1 px-xl-3 px-1 bg-primary w-100 text-yellow rounded h-100 flex-column flex-xl-row align-items-center">
+                    <img src="./icons/menu/data_loss_prevention_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="" width="70px">
+                    <h3 class="text-xl-start text-center">SÀN GIAO DỊCH VIỆT NAM</h3>
+                </div>
+            </div>
+
+            <div class="col mt-3">
+                <div class="d-flex gap-1 py-3 px-1 px-xl-3 px-1 bg-primary w-100 text-yellow rounded h-100 flex-column flex-xl-row align-items-center">
+                    <img src="./icons/menu/interpreter_mode_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="" width="70px">
+                    <h4 class="text-xl-start text-center">HƯỚNG DẪN ĐĂNG KÝ SÀN ONLINE</h4>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="d-flex align-items-center gap-3 p-3 bg-primary w-100 text-yellow rounded h-100 flex-column flex-xl-row align-items-center">
+                    <!-- <img src="./icons/menu/download_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="" width="70px"> -->
+                    <h3 class="text-lg-center text-center">HƯỚNG DẪN TUYỂN DỤNG NĐ70</h3>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="d-flex align-items-center gap-3 p-3 bg-primary w-100 text-yellow rounded h-100 flex-column flex-xl-row align-items-center">
+                    <img src="./icons/menu/download_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="" width="70px">
+                    <h3 class="text-xl-start text-center">TẢI BIỂU MẪU</h3>
+                </div>
+            </div>
+
+         </div>
+
+         <!-- Search -->
+         <div class="d-flex flex-column flex-sm-row justify-content-between bg-primary p-3 gap-3 mt-3">
+            <select class="form-select" aria-label="Default select example" style="max-width: 200px; border-radius: 0;">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+
+           <div class="d-flex bg-white justify-content-between align-items-center flex-grow-1">
+                <img src="./icons/local_offer.svg" class="ms-2" alt="" width="24px">
+                <input type="text" class="border-0 form-control shadow-none" placeholder="Tên công ty hoặc tiêu đề hồ sơ tuyển dụng" style="min-width: 150px;">
+           </div>
+
+           <button type="button" class="btn btn-primary bg-orange text-nowrap d-flex align-items-center">
+            <img src="./icons/search_white.svg" alt="">
+            TÌM KIẾM
+           </button>
+        </div>
+
+        <!-- Jobs -->
+         <div class="d-flex flex-lg-row flex-column gap-3">
+            <div class="w-100 mt-3">
+                <!-- Tuyển dụng | Người tìm việc | Mức lương -->
+                <div class="custom-tab">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">TUYỂN DỤNG</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">NGƯỜI TÌM VIỆC</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#salary-tab" type="button" role="tab" aria-controls="salary-tab" aria-selected="false">MỨC LƯƠNG</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content border border-1 p-3" style="height: 450px;">
+                        <!-- Recruitment -->
+                        <div class="tab-pane fade show active h-100 d-flex flex-column justify-content-between" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col" class="text-nowrap" style="width: 80px;"></th>
+                                        <th scope="col" class="text-nowrap" style="min-width: 200px;">
+                                            <div class="d-flex text-green">
+                                                <img src="./icons/reorder.svg" width="18" alt="">
+                                                Tiêu đề | Tên CTy
+                                            </div>
+                                        </th>
+                                        <th scope="col" class="text-nowrap" style="width: 150px;">
+                                            <div class="d-flex text-green">
+                                                <img src="./icons/location.svg" width="18" alt="">
+                                                Khu vực
+                                            </div>
+                                        </th>
+                                        <th scope="col" class="text-nowrap" style="width: 170px;">
+                                            <div class="d-flex text-green">
+                                                <img src="./icons/home_repair_service.svg" width="18" alt="">
+                                                Kinh nghiệm
+                                            </div>
+                                        </th>
+                                        <th scope="col" class="text-nowrap" style="width: 120px;">
+                                            <div class="d-flex text-green">
+                                                <img src="./icons/calendar_today.svg" width="18" alt="">
+                                                Cập nhật
+                                            </div>
+                                        </th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th>
+                                            <img src="./images/logo-cong-ty/1600w-dlimm_pUnzM.webp" class="banner-size-1" height="70" alt="">
+                                        </th>
+                                        <td>
+                                            <div class="d-flex flex-column">
+                                                <strong class="clamped-text-1">NHÂN VIÊN MARKETING</strong>
+                                                <p class="clamped-text-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente illum suscipit quod soluta numquam accusamus eos qui praesentium harum ratione voluptatum delectus, corporis, eum ab odio est facilis omnis consequuntur.</p>
+                                            </div>
+                                        </td>
+                                        <td>Thị xã Thuận An</td>
+                                        <td>Không yêu cầu</td>
+                                        <td>04/03/2020</td>
+                                      </tr>
+                                      <tr>
+                                        <th>
+                                            <img src="./images/logo-cong-ty/images.png" class="banner-size-1" alt="">
+                                        </th>
+                                        <td>
+                                            <div class="d-flex flex-column">
+                                                <strong class="clamped-text-1">NHÂN VIÊN MARKETING</strong>
+                                                <p class="clamped-text-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente illum suscipit quod soluta numquam accusamus eos qui praesentium harum ratione voluptatum delectus, corporis, eum ab odio est facilis omnis consequuntur.</p>
+                                            </div>
+                                        </td>
+                                        <td>Thị xã Thuận An</td>
+                                        <td>Không yêu cầu</td>
+                                        <td>04/03/2020</td>
+                                      </tr>
+                                      <tr>
+                                        <th>
+                                            <img src="./images/logo-cong-ty/logo-fpt-inkythuatso-1-01-01-14-33-19.jpg" class="banner-size-1" alt="">
+                                        </th>
+                                        <td>
+                                            <div class="d-flex flex-column">
+                                                <strong class="clamped-text-1">NHÂN VIÊN MARKETING</strong>
+                                                <p class="clamped-text-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente illum suscipit quod soluta numquam accusamus eos qui praesentium harum ratione voluptatum delectus, corporis, eum ab odio est facilis omnis consequuntur.</p>
+                                            </div>
+                                        </td>
+                                        <td>Thị xã Thuận An</td>
+                                        <td>Không yêu cầu</td>
+                                        <td>04/03/2020</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="btn btn-primary bg-primary text-yellow d-flex justify-content-center align-items-center">
+                                    <img src="./icons/search_white.svg" alt="">
+                                    TRA CỨU HỒ SƠ TUYỂN DỤNG
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="1">
+                            Tab người tìm việc
+                        </div>
+                        <div class="tab-pane fade" id="salary-tab" role="tabpanel" aria-labelledby="disabled-tab" tabindex="2">
+                            Tab mức lương
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tuyển dụng gấp | Việc làm hot -->
+                <div class="custom-tab mt-3">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#urgent-recruitment" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">TUYỂN DỤNG GẤP</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#hot-job" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">VIỆC LÀM HOT</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content border border-1 p-3" style="height: 350px;">
+                        <!-- Recruitment -->
+                        <div class="tab-pane fade show active h-100 d-flex flex-column justify-content-between" id="urgent-recruitment" role="tabpanel" tabindex="0">
+                            <div class="row row-cols-1 overflow-auto row-cols-md-2">
+                                <div class="col border-bottom pb-3 mb-3">
+                                    <div class="d-flex gap-3">
+                                        <img src="./images/tuyen dung/1605689787-banner-tuyen-dung-4.jpg" alt="" class="banner-size-1">
+                                        <div class="d-flex flex-column w-100">
+                                            <span class="fw-semibold clamped-text-1">Chuyên viên kinh doanh</span>
+                                            <span class="clamped-text-1">Công ty cổ phần công nghệ</span>
+                                            <small class="d-flex justify-content-between w-100 mt-1 text-nowrap">
+                                                <span class="d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">12-15 triệu</span>
+                                                <span class="d-flex align-items-center text-truncate" style="max-width: 120px;"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">Hồ Chí Minh</span>
+                                                <span class="d-flex align-items-center"><img src="./icons/schedule_.svg" alt="" height="20"> 21-12-2022</span>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col border-bottom pb-3 mb-3">
+                                    <div class="d-flex gap-3">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-1.jpg" alt=""class="banner-size-1">
+                                        <div class="d-flex flex-column w-100">
+                                            <span class="fw-semibold clamped-text-1">Chuyên viên kinh doanh</span>
+                                            <span class="clamped-text-1">Công ty cổ phần công nghệ</span>
+                                            <samll class="d-flex justify-content-between w-100 mt-1 text-nowrap">
+                                                <span class="d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">12-15 triệu</span>
+                                                <span class="d-flex align-items-center text-truncate" style="max-width: 120px;"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">Hồ Chí Minh</span>
+                                                <span class="d-flex align-items-center"><img src="./icons/schedule_.svg" alt="" height="20"> 21-12-2022</span>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col border-bottom pb-3 mb-3">
+                                    <div class="d-flex gap-3">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-2-1200x900.jpg" alt="" class="banner-size-1">
+                                        <div class="d-flex flex-column w-100">
+                                            <span class="fw-semibold clamped-text-1">Chuyên viên kinh doanh</span>
+                                            <span class="clamped-text-1">Công ty cổ phần công nghệ</span>
+                                            <small class="d-flex justify-content-between w-100 mt-1 text-nowrap">
+                                                <span class="d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">12-15 triệu</span>
+                                                <span class="d-flex align-items-center text-truncate" style="max-width: 120px;"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">Hồ Chí Minh</span>
+                                                <span class="d-flex align-items-center"><img src="./icons/schedule_.svg" alt="" height="20"> 21-12-2022</span>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col border-bottom pb-3 mb-3">
+                                    <div class="d-flex gap-3">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-14.jpg" alt="" class="banner-size-1">
+                                        <div class="d-flex flex-column w-100">
+                                            <span class="fw-semibold clamped-text-1">Chuyên viên kinh doanh</span>
+                                            <span class="clamped-text-1">Công ty cổ phần công nghệ</span>
+                                            <small class="d-flex justify-content-between w-100 mt-1 text-nowrap">
+                                                <span class="d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">12-15 triệu</span>
+                                                <span class="d-flex align-items-center text-truncate" style="max-width: 120px;"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">Hồ Chí Minh</span>
+                                                <span class="d-flex align-items-center"><img src="./icons/schedule_.svg" alt="" height="20"> 21-12-2022</span>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col border-bottom pb-3 mb-3">
+                                    <div class="d-flex gap-3">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-nhan-vien-trai-nghiem-san-pham-1.jpg" alt="" class="banner-size-1">
+                                        <div class="d-flex flex-column w-100">
+                                            <span class="fw-semibold clamped-text-1">Chuyên viên kinh doanh</span>
+                                            <span class="clamped-text-1">Công ty cổ phần công nghệ</span>
+                                            <small class="d-flex justify-content-between w-100 mt-1 text-nowrap">
+                                                <span class="d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">12-15 triệu</span>
+                                                <span class="d-flex align-items-center text-truncate" style="max-width: 120px;"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">Hồ Chí Minh</span>
+                                                <span class="d-flex align-items-center"><img src="./icons/schedule_.svg" alt="" height="20"> 21-12-2022</span>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col border-bottom pb-3 mb-3">
+                                    <div class="d-flex gap-3">
+                                        <img src="./images/tuyen dung/banner-tuyen-dung-14.jpg" alt="" class="banner-size-1">
+                                        <div class="d-flex flex-column w-100">
+                                            <span class="fw-semibold clamped-text-1">Chuyên viên kinh doanh</span>
+                                            <span class="clamped-text-1">Công ty cổ phần công nghệ</span>
+                                            <small class="d-flex justify-content-between w-100 mt-1 text-nowrap">
+                                                <span class="d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">12-15 triệu</span>
+                                                <span class="d-flex align-items-center text-truncate" style="max-width: 120px;"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">Hồ Chí Minh</span>
+                                                <span class="d-flex align-items-center"><img src="./icons/schedule_.svg" alt="" height="20"> 21-12-2022</span>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col border-bottom pb-3 mb-3">
+                                    <div class="d-flex gap-3">
+                                        <img src="./images/tuyen dung/images.jpeg" alt="" class="banner-size-1">
+                                        <div class="d-flex flex-column w-100">
+                                            <span class="fw-semibold clamped-text-1">Chuyên viên kinh doanh</span>
+                                            <span class="clamped-text-1">Công ty cổ phần công nghệ</span>
+                                            <small class="d-flex justify-content-between w-100 mt-1 text-nowrap">
+                                                <span class="d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">12-15 triệu</span>
+                                                <span class="d-flex align-items-center text-truncate" style="max-width: 120px;"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="20">Hồ Chí Minh</span>
+                                                <span class="d-flex align-items-center"><img src="./icons/schedule_.svg" alt="" height="20"> 21-12-2022</span>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="hot-job" role="tabpanel" aria-labelledby="contact-tab" tabindex="1">
+                            Tab người tìm việc
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lĩnh vực ngành nghề | Địa điểm | Chức vụ -->
+                <div class="custom-tab mt-3">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#occupation" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">LĨNH VỰC NGÀNH NGHỀ</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#location" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">ĐỊA ĐIỂM</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#position" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">CHỨC VỤ</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content border border-1 p-3" style="height: 310px;">
+                        <!-- Recruitment -->
+                        <div class="tab-pane fade show active h-100 d-flex flex-column justify-content-between" id="occupation" role="tabpanel" tabindex="0">
+                            <div class="row row-cols-2 row-cols-md-3 overflow-auto">
+                                <div class="d-flex flex-column gap-2">
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                </div>
+
+                                <div class="d-flex flex-column gap-2">
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                </div>
+
+                                <div class="d-flex flex-column gap-2">
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                    <span class="d-flex align-items-center">
+                                        <img src="./icons/double_arrow_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="16">
+                                        <span class="clamped-text-1">Báo chí và truyền thông</span> (0)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="contact-tab" tabindex="1">
+                            Tab địa điểm
+                        </div>
+
+                        <div class="tab-pane fade" id="position" role="tabpanel" aria-labelledby="contact-tab" tabindex="2">
+                            Tab chức vụ
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Atttactive jobs & Statistics -->
+             <div class="d-flex flex-column mt-3 atttactive-jobs-statistics">
+                <div class="border border-1 atttactive-jobs">
+                    <h3 class="bg-primary text-yellow py-2 px-3 fw-bold text-center text-nowrap">VIỆC LÀM HẤP DẪN</h3>
+
+                    <div class="d-flex flex-column overflow-y-scroll p-3">
+                        <div class="d-flex flex-column border-bottom pb-3 mb-3 border-dotted">
+                            <strong class="clamped-text-1">Trưởng nhóm kinh doanh</strong>
+                            <p class="clamped-text-1 text-muted mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque magnam voluptas unde ducimus doloribus ullam, praesentium molestiae, voluptatem repudiandae fugit debitis quia obcaecati possimus iste tempore exercitationem ab et.</p>
+                            <small class="row row-cols-2">
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">4-6 Triệu</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">TP Thủ Dầu Một</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/experiment_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">KN 1 năm</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">20/02/2020</span>
+                            </small>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom pb-3 mb-3 border-dotted">
+                            <strong class="clamped-text-1">Trưởng nhóm kinh doanh</strong>
+                            <p class="clamped-text-1 text-muted mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque magnam voluptas unde ducimus doloribus ullam, praesentium molestiae, voluptatem repudiandae fugit debitis quia obcaecati possimus iste tempore exercitationem ab et.</p>
+                            <small class="row row-cols-2">
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">4-6 Triệu</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">TP Thủ Dầu Một</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/experiment_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">KN 1 năm</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">20/02/2020</span>
+                            </small>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom pb-3 mb-3 border-dotted">
+                            <strong class="clamped-text-1">Trưởng nhóm kinh doanh</strong>
+                            <p class="clamped-text-1 text-muted mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque magnam voluptas unde ducimus doloribus ullam, praesentium molestiae, voluptatem repudiandae fugit debitis quia obcaecati possimus iste tempore exercitationem ab et.</p>
+                            <small class="row row-cols-2">
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">4-6 Triệu</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">TP Thủ Dầu Một</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/experiment_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">KN 1 năm</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">20/02/2020</span>
+                            </small>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom pb-3 mb-3 border-dotted">
+                            <strong class="clamped-text-1">Trưởng nhóm kinh doanh</strong>
+                            <p class="clamped-text-1 text-muted mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque magnam voluptas unde ducimus doloribus ullam, praesentium molestiae, voluptatem repudiandae fugit debitis quia obcaecati possimus iste tempore exercitationem ab et.</p>
+                            <small class="row row-cols-2">
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">4-6 Triệu</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">TP Thủ Dầu Một</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/experiment_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">KN 1 năm</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">20/02/2020</span>
+                            </small>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom pb-3 mb-3 border-dotted">
+                            <strong class="clamped-text-1">Trưởng nhóm kinh doanh</strong>
+                            <p class="clamped-text-1 text-muted mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque magnam voluptas unde ducimus doloribus ullam, praesentium molestiae, voluptatem repudiandae fugit debitis quia obcaecati possimus iste tempore exercitationem ab et.</p>
+                            <small class="row row-cols-2">
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">4-6 Triệu</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">TP Thủ Dầu Một</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/experiment_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">KN 1 năm</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">20/02/2020</span>
+                            </small>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom pb-3 mb-3 border-dotted">
+                            <strong class="clamped-text-1">Trưởng nhóm kinh doanh</strong>
+                            <p class="clamped-text-1 text-muted mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque magnam voluptas unde ducimus doloribus ullam, praesentium molestiae, voluptatem repudiandae fugit debitis quia obcaecati possimus iste tempore exercitationem ab et.</p>
+                            <small class="row row-cols-2">
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">4-6 Triệu</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">TP Thủ Dầu Một</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/experiment_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">KN 1 năm</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">20/02/2020</span>
+                            </small>
+                        </div>
+
+                        <div class="d-flex flex-column border-bottom pb-3 mb-3 border-dotted">
+                            <strong class="clamped-text-1">Trưởng nhóm kinh doanh</strong>
+                            <p class="clamped-text-1 text-muted mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque magnam voluptas unde ducimus doloribus ullam, praesentium molestiae, voluptatem repudiandae fugit debitis quia obcaecati possimus iste tempore exercitationem ab et.</p>
+                            <small class="row row-cols-2">
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/attach_money_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">4-6 Triệu</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/location_on_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="" width="18">TP Thủ Dầu Một</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/experiment_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">KN 1 năm</span>
+                                <span class="text-light-blue d-flex align-items-center"><img src="./icons/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">20/02/2020</span>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column border mt-2">
+                    <h5 class="w-100 px-3 py-2 bg-primary fw-bold text-white">THỐNG KÊ</h5>
+                    <div class="d-flex flex-column gap-2 p-3">
+                        <div class="d-flex flex-column justify-content-center align-items-center w-100 border border-3 rounded rounded-4 p-2">
+                            <span class="text-primary">2511</span>
+                            <p class="fw-bold mb-0">SỐ LƯỢNG HỒ SƠ THỐNG KÊ</p>
+                        </div>
+
+                        <div class="d-flex flex-column justify-content-center align-items-center w-100 border border-3 rounded rounded-4 p-2">
+                            <span class="text-primary">25111966</span>
+                            <p class="fw-bold mb-0">SỐ NGƯỜI TRUY CẬP</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+         <div class="d-flex gap-2 p-2 border justify-content-between rounded mt-3 overflow-y-auto">
+            <img src="./images/tuyen dung/banner-tuyen-dung-2-1200x900.jpg" class="object-fit-cover flex-fill" alt="" height="170">
+            <img src="./images/tuyen dung/banner-tuyen-dung-14.jpg" class="object-fit-cover flex-fill" alt="" height="170">
+            <img src="./images/tuyen dung/images.jpeg" class="object-fit-cover flex-fill" alt="" height="170">
+            <img src="./images/tuyen dung/1605689787-banner-tuyen-dung-4.jpg" class="object-fit-cover flex-fill" alt="" height="170">
+         </div>
+
+         <!-- Consulting -->
+         <div class="custom-tab mt-3">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">TƯ VẤN</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <!-- Recruitment -->
+                <div class="tab-pane fade show active h-100 d-flex flex-column justify-content-between" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <div class="row mt-3">
+                        <div class="col-lg-7 col-12">
+                            <div class="position-relative">
+                                <img src="./images/tu-van/7-chotcd-16221214647841533326711.webp" class="object-fit-cover w-100" alt="" height="458">
+                                <div class="position-absolute bottom-0 w-100 text-white p-3" style="background-color: rgba(0, 0, 0, 0.787); max-height: 300px;">
+                                    <h5>TRUNG TÂM GIỚI THIỆU VIỆC LÀM BÌNH ĐỊNH</h5>
+
+                                    <p class="clamped-text-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia reiciendis quia doloribus suscipit quae impedit dolores vitae. Itaque nostrum rerum exercitationem magni assumenda, repellendus quas ipsam. Labore maiores mollitia ad?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-12 mt-lg-0 mt-3">
+                            <div class="overflow-y-scroll" style="height: 465px;">
+                                <div class="d-flex flex-column gap-3">
+                                    <div class="d-flex gap-3">
+                                        <div class="d-flex">
+                                            <img src="./images/tu-van/0102_-_chuyen_doi_so_20220201120657.jpg" class="banner-size-3" alt="">
+                                        </div>
+
+                                        <div class="">
+                                            <strong>Bản tin BHNT 8.2019</strong>
+                                            <p class="clamped-text-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo sed dolore illum, omnis nulla eveniet rerum ad explicabo, molestias magnam! Nulla esse laudantium beatae ducimus tenetur suscipit aperiam magnam.</p>
+                                            <small class="d-flex gap-3">
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/calendar_today_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">25.09.2019</span>
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">399</span>
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex gap-3">
+                                        <div class="d-flex">
+                                            <img src="./images/tu-van/Anh-tuyen-dung-nhan-su-Telesale.jpg" class="banner-size-3" alt="">
+                                        </div>
+
+                                        <div class="">
+                                            <strong>Bản tin BHNT 8.2019</strong>
+                                            <p class="clamped-text-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo sed dolore illum, omnis nulla eveniet rerum ad explicabo, molestias magnam! Nulla esse laudantium beatae ducimus tenetur suscipit aperiam magnam.</p>
+                                            <small class="d-flex gap-3">
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/calendar_today_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">25.09.2019</span>
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">399</span>
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex gap-3">
+                                        <div class="d-flex">
+                                            <img src="./images/tu-van/images.png" class="banner-size-3" alt="">
+                                        </div>
+
+                                        <div class="">
+                                            <strong>Bản tin BHNT 8.2019</strong>
+                                            <p class="clamped-text-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo sed dolore illum, omnis nulla eveniet rerum ad explicabo, molestias magnam! Nulla esse laudantium beatae ducimus tenetur suscipit aperiam magnam.</p>
+                                            <small class="d-flex gap-3">
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/calendar_today_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">25.09.2019</span>
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">399</span>
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex gap-3">
+                                        <div class="d-flex">
+                                            <img src="./images/tu-van/mau-thong-bao-tuyen-dung-13.jpg" class="banner-size-3" alt="">
+                                        </div>
+
+                                        <div class="">
+                                            <strong>Bản tin BHNT 8.2019</strong>
+                                            <p class="clamped-text-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo sed dolore illum, omnis nulla eveniet rerum ad explicabo, molestias magnam! Nulla esse laudantium beatae ducimus tenetur suscipit aperiam magnam.</p>
+                                            <small class="d-flex gap-3">
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/calendar_today_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">25.09.2019</span>
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">399</span>
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex gap-3">
+                                        <div class="d-flex">
+                                            <img src="./images/tu-van/Anh-tuyen-dung-nhan-su-Telesale.jpg" class="banner-size-3" alt="">
+                                        </div>
+
+                                        <div class="">
+                                            <strong>Bản tin BHNT 8.2019</strong>
+                                            <p class="clamped-text-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo sed dolore illum, omnis nulla eveniet rerum ad explicabo, molestias magnam! Nulla esse laudantium beatae ducimus tenetur suscipit aperiam magnam.</p>
+                                            <small class="d-flex gap-3">
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/calendar_today_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">25.09.2019</span>
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">399</span>
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex gap-3">
+                                        <div class="d-flex">
+                                            <img src="./images/tu-van/images.png" class="banner-size-3" alt="">
+                                        </div>
+
+                                        <div class="">
+                                            <strong>Bản tin BHNT 8.2019</strong>
+                                            <p class="clamped-text-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo sed dolore illum, omnis nulla eveniet rerum ad explicabo, molestias magnam! Nulla esse laudantium beatae ducimus tenetur suscipit aperiam magnam.</p>
+                                            <small class="d-flex gap-3">
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/calendar_today_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">25.09.2019</span>
+                                                <span class="d-flex align-items-center gap-2"><img src="./icons/visibility_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="18">399</span>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Doanh nghiệp tiêu biểu -->
+        <div class="custom-tab mt-3">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">DOANH NGHIỆP TIÊU BIỂU</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <!-- Recruitment -->
+                <div class="tab-pane fade show active h-100 d-flex flex-column justify-content-between" role="tabpanel" tabindex="0">
+                    <div class="d-flex gap-3 p-2 border justify-content-between rounded mt-3 overflow-y-auto">
+                        <div class="d-flex flex-column text-center gap-3">
+                            <img src="./images/ngan-hang/file.png" class="object-fit-cover flex-fill" alt="" height="170">
+                            <span class="px-3">NGÂN HÀNG VIỆT NAM THỊNH VƯỢNG VP BANK</span>
+                        </div>
+                        <div class="d-flex flex-column text-center gap-3">
+                            <img src="./images/ngan-hang/logo-tpbank-2.jpg" class="object-fit-cover flex-fill" alt="" height="170">
+                            <span class="px-3">NGÂN HÀNG TMCP TIÊN PHONG BANK</span>
+                        </div>
+                        <div class="d-flex flex-column text-center gap-3">
+                            <img src="./images/ngan-hang/logo-ngan-hang-agribank-1.jpg" class="object-fit-cover flex-fill" alt="" height="170">
+                            <span class="px-3">NGÂN HÀNG NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN</span>
+                        </div>
+                        <div class="d-flex flex-column text-center gap-3">
+                            <img src="./images/ngan-hang/logo-kien-long-banks-scaled.jpg" class="object-fit-cover flex-fill" alt="" height="170">
+                            <span class="px-3 h-100">NGÂN HÀNG KIÊN LONG</span>
+                        </div>
+                        <div class="d-flex flex-column text-center gap-3">
+                            <img src="./images/ngan-hang/13560536_logo-dien-may-cho-lon-1000x1000_thumbnail.jpg" class="object-fit-cover flex-fill" alt="" height="170">
+                           <span class="px-3 h-100">ĐIỆN MÁY CHỢ LỚN</span>
+                        </div>
+
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bản tin -->
+        <div class="custom-tab mt-3">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">BẢN TIN THÔNG TIN THỊ TRƯỜNG LAO ĐỘNG</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <!-- Recruitment -->
+                <div class="tab-pane fade show active h-100 d-flex flex-column justify-content-between" role="tabpanel" tabindex="0">
+                    <div class="row mt-3">
+                        <div class="col-lg-7 col-12">
+                            <div class="d-flex h-100 w-100">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JwgCkjdVSYU?si=vvBbh0ikDYmqr15A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-12 mt-lg-0 mt-2">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="height: 400px;">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./images/tuyen dung/banner-tuyen-dung-1.jpg" class="d-block w-100 object-fit-cover" alt="..." height="400">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./images/tuyen dung/banner-tuyen-dung-2-1200x900.jpg" class="d-block w-100 object-fit-cover" alt="..." height="400">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./images/tuyen dung/banner-tuyen-dung-nhan-vien-trai-nghiem-san-pham-1.jpg" class="d-block w-100 object-fit-cover" alt="..." height="400">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="overflow-x-auto w-100 mt-2">
+                        <div class="d-flex gap-2">
+                            <div class="d-flex flex-column">
+                                <iframe width="320" height="200" src="https://www.youtube.com/embed/Hzyp9EMDFew?si=pvAyYTt3hoOhDXRf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="fw-semibold clamped-text-1 mt-2">Tin nhanh trong ngày</span>
+                                <span class="text-muted mb-1">10/02/2022</span>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <iframe width="320" height="200" src="https://www.youtube.com/embed/HXb4l-Hw7Fo?si=pPp8oMGjDoFVcA6p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="fw-semibold clamped-text-1 mt-2">Tin nhanh trong ngày</span>
+                                <span class="text-muted">10/02/2022</span>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <iframe width="320" height="200" src="https://www.youtube.com/embed/aHe2w0bRMpc?si=NDGsP9Y5XU0R_mLv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="fw-semibold clamped-text-1 mt-2">Tin nhanh trong ngày</span>
+                                <span class="text-muted">10/02/2022</span>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <iframe width="320" height="200" src="https://www.youtube.com/embed/6zdJOIeIJbA?si=F3-winSZf6_e1UVx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="fw-semibold clamped-text-1 mt-2">Tin nhanh trong ngày</span>
+                                <span class="text-muted">10/02/2022</span>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <iframe width="320" height="200" src="https://www.youtube.com/embed/2uYEr5jChJI?si=7FOcclE6xTrZbZ6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="fw-semibold clamped-text-1 mt-2">Tin nhanh trong ngày</span>
+                                <span class="text-muted">10/02/2022</span>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <iframe width="320" height="200" src="https://www.youtube.com/embed/Hzyp9EMDFew?si=pvAyYTt3hoOhDXRf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="fw-semibold clamped-text-1 mt-2">Tin nhanh trong ngày</span>
+                                <span class="text-muted">10/02/2022</span>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <iframe width="320" height="200" src="https://www.youtube.com/embed/6zdJOIeIJbA?si=F3-winSZf6_e1UVx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="fw-semibold clamped-text-1 mt-2">Tin nhanh trong ngày</span>
+                                <span class="text-muted">10/02/2022</span>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <iframe width="320" height="200" src="https://www.youtube.com/embed/6zdJOIeIJbA?si=F3-winSZf6_e1UVx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <span class="fw-semibold clamped-text-1 mt-2">Tin nhanh trong ngày</span>
+                                <span class="text-muted">10/02/2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bản tin -->
+        <div class="custom-tab mt-3">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">THÔNG TIN LIÊN HỆ</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <!-- Recruitment -->
+                <div class="tab-pane fade show active h-100 d-flex flex-column justify-content-between" role="tabpanel" tabindex="0">
+                    <div class="row mt-3">
+                        <div class="col-lg-6 col-12">
+                            <p class="fw-semibold">
+                                Copyright &copy; 2020 TRUNG TAM DICH VU VIEC LAM TINH BINH DINH
+                                <br>
+                                Địa Chỉ: 215 Trần Hưng Đạo, Phường Lê Lợi, Thành phố Qui Nhơn, Bình Định, Việt Nam
+                                <br>
+                                Số điện thoại: 02563646509
+                                <br>
+                                Email: pvl@vieclambinhdinh.gov.vn
+                            </p>
+
+                            <div class="border w-100 d-flex" style="height: 300px;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.0638362961163!2d109.230374275137!3d13.775023886619287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f6c8907b0993d%3A0x2e07aed37da36653!2zVFJVTkcgVMOCTSBE4buKQ0ggVuG7pCBWSeG7hkMgTMOATSBCw4xOSCDEkOG7ik5I!5e0!3m2!1svi!2s!4v1720771382761!5m2!1svi!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <form action="#">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label fw-semibold">Họ Và Tên</label>
+                                    <input type="text" class="form-control" id="name" placeholder="">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="phoneNumber" class="form-label fw-semibold">Số Điện Thoại</label>
+                                    <input type="text" class="form-control" id="phoneNumber" placeholder="">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-semibold">Email</label>
+                                    <input type="mail" class="form-control" id="email" placeholder="">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label fw-semibold">Nội Dung</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                </div>
+
+                                <div class="d-flex w-100 justify-content-end">
+                                    <button type="button" class="btn btn-primary bg-primary d-flex align-items-center gap-2">
+                                        Gửi Email
+                                        <img src="./icons/send_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" height="18">
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h5 class="text-yellow fw-bold border-bottom py-3">LIÊN HỆ CHI NHÁNH</h5>
+                    <p class="border-bottom text-white fw-semibold py-3 mb-0">
+                        Trung tâm Giáo dục nghề nghiệp - GDTX thị xã Hoài Nhơn
+                                <br>
+                                Số điện thoại: 02563646509
+                                <br>
+                                Địa chỉ: 2326 Quang Trung, phường Hoài Tân, thị xã Hoài Nhơn.
+                    </p>
+
+                    <p class="border-bottom text-white fw-semibold py-3 mb-0">
+                        Trung tâm Giáo dục nghề nghiệp -GDTX huyện Tây Sơn
+                        <br>
+                        Số điện thoại: 02563646509
+                        <br>
+                        Địa chỉ: QL 19, thôn Phú An, xã Tây Xuân, huyện Tây Sơn
+                    </p>
+                    <p class="text-white fw-semibold py-3 mb-0">
+                        Trường Cao đẳng Kỹ thuật công nghệ Quy Nhơn - Cơ sở Khoa Kỹ thuật nông nghiệp
+                                                <br>
+                                                Số Điện thoại: (0252) 3817120
+                        <br>
+                        Địa Chỉ: 20 Trần Thị Kỷ, phường Bình Định, thị xã An Nhơn;
+                    </p>
+                    <p class="text-white fw-semibold pb-3 mb-0">
+                        Trung tâm Giáo dục nghề nghiệp - GDTX huyện Phù Mỹ
+                        <br>
+                        Điện thoại: (0252) 3817120
+                        <br>
+                        Địa Chỉ: : QL 1A, khu phố Diêm Tiêu, thị trấn Phù Mỹ, huyện Phù Mỹ
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h5 class="text-yellow fw-bold border-bottom py-3">KẾT NỐI</h5>
+                    <div class="w-100 mt-3" style="height: 200px;">
+                        <!-- Facebook -->
+                         <img src="./images/zaloOa.jpg" class="w-75" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h5 class="text-yellow fw-bold border-bottom py-3">LIÊN KẾT WEBSITE</h5>
+
+                    <div class="row row-cols-2 g-2 mt-2">
+                        <a href="#" class="mt-2 col-5">
+                            <img src="./images/logo-web-viec-lam/Hrtimvieccomvn-tuyen-dung-viec-lam-logo.jpg" class="object-fit-cover w-100" alt="" height="150">
+                        </a>
+                        <a href="#" class="mt-2 col-7">
+                            <img src="./images/logo-web-viec-lam/images (1).png" class="object-fit-cover w-100" alt="" height="150">
+                        </a>
+                        <a href="#" class="mt-2 col-5">
+                             <img src="./images/logo-web-viec-lam/images.jpeg" class="object-fit-cover w-100" alt="" height="120">
+                        </a>
+                        <a href="#" class="mt-2 col-7">
+                             <img src="./images/logo-web-viec-lam/images.png" class="object-fit-cover w-100" alt="" height="120">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 border-top" style="border-color: rgb(113 142 255) !important">
+            <div class="container text-white text-center p-2">
+                Copyright &copy; 2020 TRUNG TÂM DỊCH VỤ VIỆC LÀM TỈNH BÌNH ĐỊNH
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

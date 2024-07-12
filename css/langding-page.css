@@ -1,0 +1,161 @@
+:root {
+    --primary: #0066b1;
+    --yellow: #cff28c;
+    --green: #42825d;
+    --orange: #fe4409;
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --light-gray: #d4dbda;
+    --bs-secondary-color: #6e6e6e !important;
+    --light-blue: #85a9f8;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .bg-primary {
+    background-color: var(--primary) !important;
+  }
+
+  .bg-orange {
+    background-color: var(--orange) !important;
+  }
+  
+  .text-green {
+    color: var(--green);
+  }
+
+  .text-yellow {
+    color: var(--yellow);
+  }
+
+  .text-light-blue {
+    color: var(--light-blue);
+  }
+
+  .color-green {
+    color: var(--green) !important;
+  }
+
+  .menu-active {
+    font-weight: semibold;
+  }
+
+  /* Font size */
+
+  .clamped-text-1 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
+
+  .clamped-text-2 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
+
+  .clamped-text-3 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
+
+  .custom-tab .nav.nav-tabs {
+    gap: 3px;
+  }
+
+  .custom-tab .nav-item .nav-link {
+    background-color: var(--light-gray);
+    color: var(--primary);
+    font-weight: bold;
+    border: 0;
+  }
+
+  .custom-tab .nav-item .nav-link.active {
+    background-color: var(--primary);
+    color: var(--yellow);
+  }
+
+  .custom-tab .tab-content {
+    border-top: 5px solid var(--primary) !important;
+  }
+
+  .tabs-height {
+    height: 450px;
+  }
+
+  .border-bottom.border-dotted {
+    border-bottom-style: dotted !important;
+  }
+
+  .atttactive-jobs-statistics {
+    width: 500px;
+  }
+
+  .atttactive-jobs-statistics .atttactive-jobs .overflow-y-scroll {
+    height: 980px;
+  }
+
+  @media (max-width: 991px) {
+    .atttactive-jobs-statistics {
+      width: 100%;
+      
+    }
+
+    .atttactive-jobs-statistics .atttactive-jobs .overflow-y-scroll {
+      max-height: 300px;
+    }
+
+    .main-logo {
+      max-width: 60% !important;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .banner-size-1 {
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .banner-size-2 {
+    min-width: 100px;
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .banner-size-3 {
+    min-width: 150px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .main-logo {
+    max-width: 395px;
+  }
